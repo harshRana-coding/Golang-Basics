@@ -1,4 +1,6 @@
-package main 
+package main
+
+import "fmt"
 
 // import "fmt"
 
@@ -12,5 +14,8 @@ func main() {
 	// fmt.Println(product)
 	// practice()
 	// map1()
-	slice()
+	// func1()
+	// fmt.Println(factorial(5))
+	sum := sumup(1, 10, 23, 45)
+	fmt.Println(sum)
 }
